@@ -33,6 +33,7 @@ public class Calculator extends JFrame {
     
     private void init() 
     {
+    	xxxField = new JTextField();
         textField = new JTextField();   
         textField.setEditable(false);
         textField.setHorizontalAlignment (JTextField.RIGHT);
@@ -160,6 +161,7 @@ public class Calculator extends JFrame {
         }
     }
     private JTextField textField;
+    private JTextField xxxField;
     private double v1, v2, value;
     private char operator;
     private boolean reop = false;
